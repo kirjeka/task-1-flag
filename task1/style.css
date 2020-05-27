@@ -1,0 +1,121 @@
+div {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border:none;
+}
+
+
+section {
+  width: 300px;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+section:first-child {
+  padding-top: 0;
+}
+
+p {
+  text-align: center;
+}
+
+/* Flag Ukraine */
+
+.flag__uk {
+  background: linear-gradient( blue 50%, yellow 50%);
+  height: 180px;
+}
+
+/* Flag Japan */
+
+.japan__square {
+  width: 300px;
+  height: 180px;
+ 
+
+  position: relative;
+
+  background-color: white;
+  border: 2px solid #cccccc;
+}
+
+.japan__circle {
+  background-color: #bc002d;
+  width: 120px;
+  height: 110px;
+ 
+  position: absolute;
+  transform: translate(-50%, -50%);
+
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+ 
+}
+
+/* FLag Island */
+.island {
+  width:300px;
+  height:145px;
+  background:
+  linear-gradient(blue,blue) 0 0      /82px 49px,
+  linear-gradient(blue,blue) 0 100%   /82px 56px,
+  linear-gradient(blue,blue) 100% 0   /176px 48px,
+  linear-gradient(blue,blue) 100% 100%/176px 54px,
+    
+    linear-gradient(red,red)   90px 0/ 26px 100%,
+    linear-gradient(red,red)   0 56px/ 100% 26px;
+  background-repeat:no-repeat;
+}
+
+/* Czech flag */
+
+.czech__flag {
+  
+    display:block;
+    position: absolute;
+    height:158px;
+    width:300px;
+    background-color: white;
+    border:0.5px solid black;
+    z-index: 1000;
+    
+  }
+  .czech__flag:after{
+    content:"";
+    display:block;
+    position: absolute;
+  
+    margin-top:0;
+    
+    width: 0;
+    height: 0;
+    border-top: 74px solid transparent;
+    border-left: 127px solid blue;
+    border-bottom: 83px solid transparent;
+    
+    z-index:2;
+  }
+  .czech__flag:before{
+    content:"";
+    display:block;
+    position: absolute;
+    background-color: red;
+    margin-top:75px;
+    height:82px;
+    width: 299px;
+   
+    z-index: 1;
+  }
+.czech__padd {
+  padding-top: 180px;
+}
+ 
+
+  .padding {
+    padding-top: 500px;
+  }
+
+
+/*Флаги верстал первый раз. Разбирался на ходу*/
